@@ -3,6 +3,47 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Bree Serif',serif;
-  background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+  background: linear-gradient(120deg, #ff7e5f 0%, #feb47b 100%);
 }
 
+h3{
+   color:orangered;
+   padding:5px;
+   margin:5px;
+}
+
+h4{
+  color:blue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.user-info {
+  text-align: left;
+}
+
+.no-user{
+  color:red;
+}
+
+.not-found-img{
+  height:250px;
+  width:250px;
+}
